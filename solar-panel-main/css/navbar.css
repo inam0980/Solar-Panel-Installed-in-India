@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+
+}
+
+.logo {
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.logo img {
+    width: 30px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 20px 26px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+
+
+.active {
+    border-bottom: 8px solid green;
+    font-weight: 700;
+}
+
+.active a {
+    color: green;
+}
+
+.rightNav {
+    /*background-color: red;*/
+    display: flex;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    margin: 6px;
+}
